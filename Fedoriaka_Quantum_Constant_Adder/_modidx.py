@@ -5,5 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ShreyanshBanerjee.github.io',
                 'git_url': 'https://github.com/ShreyanshBanerjee/Fedoriaka-Quantum-Constant-Adder',
                 'lib_path': 'Fedoriaka_Quantum_Constant_Adder'},
-  'syms': { 'Fedoriaka_Quantum_Constant_Adder.core': { 'Fedoriaka_Quantum_Constant_Adder.core.foo': ( 'core.html#foo',
-                                                                                                      'Fedoriaka_Quantum_Constant_Adder/core.py')}}}
+  'syms': { 'Fedoriaka_Quantum_Constant_Adder.core': { 'Fedoriaka_Quantum_Constant_Adder.core.Controlled_FedoriakaConstantAdder': ( 'core.html#controlled_fedoriakaconstantadder',
+                                                                                                                                    'Fedoriaka_Quantum_Constant_Adder/core.py'),
+                                                       'Fedoriaka_Quantum_Constant_Adder.core.FedoriakaConstantAdder': ( 'core.html#fedoriakaconstantadder',
+                                                                                                                         'Fedoriaka_Quantum_Constant_Adder/core.py')}}}
