@@ -3,8 +3,8 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Fedoriaka-Quantum-Constant-Adder"
-dynamic = ["version"]
+name = "fedoriaka_quantum_constant_adder"
+version = "0.1.0"
 description = "An algorithm to generate optimal subroutines for the addition of a constant to a Quantum Register."
 readme = "README.md"
 requires-python = ">=3.10"

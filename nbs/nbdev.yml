@@ -2,7 +2,7 @@ project:
   output-dir: _docs
 
 website:
-  title: "Fedoriaka-Quantum-Constant-Adder"
+  title: "fedoriaka_quantum_constant_adder"
   site-url: "https://ShreyanshBanerjee.github.io/Fedoriaka-Quantum-Constant-Adder"
   description: "An algorithm to generate optimal subroutines for the addition of a constant to a Quantum Register."
   repo-branch: main
