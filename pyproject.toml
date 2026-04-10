@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Fedoriaka-Quantum-Constant-Adder"
+dynamic = ["version"]
+description = "An algorithm to generate optimal subroutines for the addition of a constant to a Quantum Register."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "ShreyanshBanerjee", email = "shreyansh.banerjee.x@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/ShreyanshBanerjee/Fedoriaka-Quantum-Constant-Adder"
+Documentation = "https://ShreyanshBanerjee.github.io/Fedoriaka-Quantum-Constant-Adder/"
+
+[project.entry-points.nbdev]
+Fedoriaka_Quantum_Constant_Adder = "Fedoriaka_Quantum_Constant_Adder._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "Fedoriaka_Quantum_Constant_Adder.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["Fedoriaka_Quantum_Constant_Adder"]
+
+[tool.nbdev]
