@@ -8,4 +8,6 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'Fedoriaka_Quantum_Constant_Adder.core': { 'Fedoriaka_Quantum_Constant_Adder.core.Controlled_FedoriakaConstantAdder': ( 'core.html#controlled_fedoriakaconstantadder',
                                                                                                                                     'Fedoriaka_Quantum_Constant_Adder/core.py'),
                                                        'Fedoriaka_Quantum_Constant_Adder.core.FedoriakaConstantAdder': ( 'core.html#fedoriakaconstantadder',
-                                                                                                                         'Fedoriaka_Quantum_Constant_Adder/core.py')}}}
+                                                                                                                         'Fedoriaka_Quantum_Constant_Adder/core.py'),
+                                                       'Fedoriaka_Quantum_Constant_Adder.core.run': ( 'core.html#run',
+                                                                                                      'Fedoriaka_Quantum_Constant_Adder/core.py')}}}

@@ -15,7 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
 ]
-dependencies = []
+dependencies = [
+    "qiskit",
+    "qiskit-aer"
+]
 
 [project.urls]
 Repository = "https://github.com/ShreyanshBanerjee/Fedoriaka-Quantum-Constant-Adder"
